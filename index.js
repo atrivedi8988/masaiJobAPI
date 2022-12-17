@@ -4,6 +4,7 @@ const JobPostModel = require("./JobPost.Schema")
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 mongoose.set("strictQuery",true)
 
