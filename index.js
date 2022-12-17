@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const JobPostModel = require("./JobPost.Schema")
+const cors = require("cors")
 
 const app = express();
 app.use(express.json());
