@@ -15,5 +15,4 @@ router.post("/post",(req,res)=>{
     res.send("user added successfully")
 })
 
-console.log("i am here")
 module.exports = router
